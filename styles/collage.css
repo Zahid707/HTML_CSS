@@ -23,3 +23,21 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+/*responsive media query*/
+@media screen and (max-width: 376px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .square {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
+
+@media screen and (min-width: 376) and (max-width: 668px) {   
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+}
